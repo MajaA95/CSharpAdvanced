@@ -10,7 +10,7 @@ namespace Generics.Entities
     {
         public override void Drive(string destinationName)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Japanese car {Brand} is driving to {destinationName}");
         }
     }
 }
